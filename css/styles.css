@@ -2,6 +2,8 @@
 * { 
   box-sizing: border-box;
 }
+
+
   
 body {
   margin: 0;
@@ -57,7 +59,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/cover.jpg') no-repeat top center ;
+  background: url('../images/cover.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -65,6 +67,12 @@ header {
 header {
   line-height: 1.5;
 }
+
+header h1.coding {
+	padding-top: 1.6em;
+	margin-top 1.6em;
+}
+  
 header .profile-image {
   margin-top: 50px;
   width: 150px;
@@ -118,6 +126,13 @@ ul.skills {
 
 .skills li:nth-child(odd) {
   background: #0399ff;
+}
+
+.wrapper {
+	margin : 0 auto;
+	max-width: 75%;
+	min-height: 100%;
+
 }
 
 footer {
@@ -182,6 +197,7 @@ a.social:hover {
   header {
     min-height: 470px;
   }
+ 
 
   .nav {
     max-width: 1200px;
