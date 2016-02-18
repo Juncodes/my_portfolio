@@ -96,7 +96,7 @@ header .profile-image:hover {
   background-color: #222;
   color: yellow;
 }
-.card {
+.wrapper {
   margin: 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
@@ -128,12 +128,6 @@ ul.skills {
   background: #0399ff;
 }
 
-.wrapper {
-	margin : 0 auto;
-	max-width: 75%;
-	min-height: 100%;
-
-}
 
 footer {
   width: 100%;
@@ -167,13 +161,13 @@ a.social {
   transition: all .5s;
 }
 a.twitter {
-  background-image: url(images/twitter.svg);
+  background-image: url(../images/twitter.svg);
 }
 a.linkedin {
-  background-image: url(images/linkedin.svg);
+  background-image: url(../images/linkedin.svg);
 }
 a.github {
-  background-image: url(images/github.svg);
+  background-image: url(../images/github.svg);
 } 
 a.social:hover {
   opacity: 1;
@@ -185,7 +179,7 @@ a.social:hover {
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
   
-  .flex {
+  .para {
       display: -ms-flexbox;      /* TWEENER - IE 10 */
       display: flex; 
       max-width: 1200px;
