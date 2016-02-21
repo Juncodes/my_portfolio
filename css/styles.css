@@ -139,6 +139,10 @@ footer {
   width: 100%;
   min-height: 30px;
   padding: 20px 0 40px 20px;
+  position: relative;
+  bottom: -300px;
+  border: blue 2px;
+
 }
 
 footer .copyright {
@@ -167,18 +171,18 @@ a.social {
   transition: all .5s;
 }
 a.twitter {
-  background-image: url(images/twitter.svg);
+  background-image: url(../images/twitter.svg);
 }
 a.linkedin {
-  background-image: url(images/linkedin.svg);
+  background-image: url(../images/linkedin.svg);
 }
 a.github {
-  background-image: url(images/github.svg);
+  background-image: url(../images/github.svg);
 } 
 a.social:hover {
   opacity: 1;
 }
-.clearfix {
+.clear {
   clear: both;
 }
 
