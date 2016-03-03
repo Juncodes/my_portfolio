@@ -135,6 +135,13 @@ ul.skills {
 
 }
 
+ul li {
+	list-style: none;
+	
+}
+
+
+
 footer {
   width: 100%;
   min-height: 30px;
@@ -217,12 +224,14 @@ a.social:hover {
     line-height: 1.6em;
   }
 
-  footer {
+ footer {
     font-size: 1.3em;
     max-width: 1200px;
     margin: 40px auto;
-  }
-  
+ }
+ 
+ }
+
   
 
 
